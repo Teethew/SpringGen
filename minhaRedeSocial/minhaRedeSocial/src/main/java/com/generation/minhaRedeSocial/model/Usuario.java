@@ -28,16 +28,16 @@ public class Usuario {
 	
 	@NotNull
 	@Size(max = 80)
-	private String email;
+	private String usuario;
 	
 	@NotNull
-	@Size(min = 4, max = 20)
+	@Size(min = 4, max = 255)
 	private String senha;
 	
 	@OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL)
 	@JsonIgnoreProperties("usuario")
 	private List<Postagem> postagem;
-	
+
 	//getters e setters
 	public long getId() {
 		return id;
@@ -55,12 +55,12 @@ public class Usuario {
 		this.nome = nome;
 	}
 
-	public String getEmail() {
-		return email;
+	public String getUsuario() {
+		return usuario;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
 	}
 
 	public String getSenha() {
@@ -78,6 +78,9 @@ public class Usuario {
 	public void setPostagem(List<Postagem> postagem) {
 		this.postagem = postagem;
 	}
+	
+	
+	
 	
 	
 }
