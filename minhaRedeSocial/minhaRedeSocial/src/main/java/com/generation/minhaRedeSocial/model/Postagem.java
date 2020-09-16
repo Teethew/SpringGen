@@ -49,12 +49,12 @@ public class Postagem {
 		this.descricao = descricao;
 	}
 
-	public int getLike() {
+	public int getLikes() {
 		return likes;
 	}
 
-	public void setLike(int like) {
-		this.likes = like;
+	public void setLikes(int likes) {
+		this.likes = likes;
 	}
 
 	public Tema getTema() {
