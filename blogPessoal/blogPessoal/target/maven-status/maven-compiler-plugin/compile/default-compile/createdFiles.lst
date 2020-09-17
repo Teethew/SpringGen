@@ -1,0 +1,16 @@
+com\generation\blogPessoal\config\SwaggerConfig.class
+com\generation\blogPessoal\seguranca\UserDetailsServiceImpl.class
+com\generation\blogPessoal\model\Postagens.class
+com\generation\blogPessoal\repository\PostagensRepository.class
+com\generation\blogPessoal\seguranca\BasicSecurityConfig.class
+com\generation\blogPessoal\repository\UsuarioRepository.class
+com\generation\blogPessoal\model\UserLogin.class
+com\generation\blogPessoal\controller\UsuarioController.class
+com\generation\blogPessoal\repository\TemaRepository.class
+com\generation\blogPessoal\controller\PostagensController.class
+com\generation\blogPessoal\controller\TemaController.class
+com\generation\blogPessoal\model\Usuario.class
+com\generation\blogPessoal\BlogPessoalApplication.class
+com\generation\blogPessoal\model\Tema.class
+com\generation\blogPessoal\seguranca\UserDetailsImpl.class
+com\generation\blogPessoal\service\UsuarioService.class
